@@ -19,9 +19,32 @@ header {
 
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  position: relative;
 }
+
+.header-container h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white; /* Adjust text color if needed */
+  font-size: 54px; /* Adjust font size here */
+  margin: 0;
+  font-weight: bold; /* Optional: Makes the text bold */
+}
+
+.top-right-image {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+}
+
+.top-right-image img {
+  max-width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
 
 .header-container img {
   margin-right: 10px;
@@ -71,8 +94,42 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: #0096ff;
+  color: #fff;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Push content to the edges */
+  align-items: center; /* Vertically align items */
 }
+
+.footer-left {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align content to the left */
+}
+
+.footer-left p {
+  margin: 5px 0 0; /* Space between text */
+}
+
+.footer-right {
+  margin-right: 10px; /* Add space from the edge */
+}
+
+footer a {
+  color: white; /* Change the link color to white */
+  text-decoration: none; /* Remove underline for cleaner look */
+}
+
+footer .discord-link {
+  color: white; /* Icon color */
+  font-size: 50px; /* Adjust icon size */
+  text-decoration: none;
+  margin-right: 10px; /* Space from edge */
+}
+
+footer .discord-link:hover {
+  color: #7289da; /* Discord brand color on hover */
+}
+
 
 /* About content styles */
 .content-section {
