@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.style.opacity = 1; 
   }, 50);
   
-  alert("Welcome to Huskie Hackers!");
+  //alert("Welcome to Huskie Hackers!");
 
 });
 
