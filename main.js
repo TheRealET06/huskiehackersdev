@@ -1,16 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-
-  document.body.style.opacity = 0;
-  
-  window.setTimeout(() => {
-    document.body.style.transition = "opacity 2s";
-    document.body.style.opacity = 1; 
-  }, 50);
-  
-  //alert("Welcome to Huskie Hackers!");
-
-});
-
 // Function to show the events content
 function showEvents() {
   var eventsContent = document.getElementById("events-content");
