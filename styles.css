@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  color: #fff;  
+  margin: 0;
+  margin-bottom: 75px; /* Prevent footer overlap */
+  background-image: url('images/hacker-bg.jpg'); /* Background Image Fix */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Specific background color for About page */
+body.about-active {
+  background-color: #111; 
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+
+.header-container h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 54px; /* Adjusted for better visibility */
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-container img {
+  margin-right: 10px;
+}
+
+.top-right-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.top-right-image img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Navigation Bar */
+nav i {
+  margin-right: 6px;  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+
+nav li {
+  float: left;  
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Hero Image */
+#hero img {
+  width: 100%;
+  border: 4px solid #0096ff;
+}
+
+/* Extended Content */
+.extended-content {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-left p {
+  margin: 5px 0 0;
+}
+
+.footer-right {
+  margin-right: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .discord-link {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer .discord-link:hover {
+  color: #7289da; /* Discord brand color */
+}
+
+/* About & Events Page Styling */
+.content-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(17, 17, 17, 0.9); /* Dark background with slight transparency */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.content-section h2 {
+  font-size: 24px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.content-section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.content-section a {
+  color: #0096ff;
+  text-decoration: none;
+}
+
+.content-section a:hover {
+  text-decoration: underline;
+}
+
+/* Schedule Pages (February & March) */
+.schedule-content {
+  padding: 20px;
+  margin: 20px;
+  background: rgba(17, 17, 17, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Styling for week headers (red highlight) */
+.schedule-content h3 {
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+
+/* Styling for event time headers */
+.schedule-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcc00; /* Yellow to stand out */
+  margin-top: 15px;
+}
+
+.schedule-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.schedule-content strong {
+  font-weight: bold;
+  color: #ffffff;
+}
