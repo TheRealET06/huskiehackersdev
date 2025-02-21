@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hack - Air Drawing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    
+    <div class="content-section">
+        <h1>Pizza Hack - Air Drawing</h1>
+        <h2>🎨 Write & Draw Using Your Body!</h2>
+        <h3>An Interactive AI/ML Project for Pizza Hack</h3>
+        
+        <p>Ever imagined writing or drawing in the air with just your <strong>hands, head, or any body part</strong>? In this fun and beginner-friendly project, you’ll use <strong>computer vision (CV)</strong> to track your movements and turn them into drawings on the screen—no mouse, no keyboard, just pure motion!</p>
+        
+        <h3>🔍 How It Works</h3>
+        <ul>
+            <li><strong>Capture Movement:</strong> Use a webcam and <strong>OpenCV + MediaPipe</strong> to track a body part.</li>
+            <li><strong>Draw on a Virtual Canvas:</strong> Move your tracked body part to draw lines.</li>
+            <li><strong>Erase Feature:</strong> Close your hand into a fist to clear the screen.</li>
+            <li><strong>Live Output:</strong> The screen updates in real-time.</li>
+            <li><strong>Challenge Mode:</strong> Compete by writing “Huskie Hackers” or drawing shapes!</li>
+        </ul>
+        
+        <h3>🔧 Tools You’ll Need</h3>
+        <ul>
+            <li>✅ <strong>Python</strong></li>
+            <li>✅ <strong>OpenCV</strong></li>
+            <li>✅ <strong>MediaPipe</strong></li>
+            <li>✅ <strong>NumPy</strong></li>
+            <li>✅ <strong>A Webcam</strong></li>
+        </ul>
+        
+        <h3>📅 Event Details</h3>
+        <p>📍 <strong>Where:</strong> 71 North Partnership Studio</p>
+        <p>🕑 <strong>When:</strong> Friday, 2-4 PM (Pizza Hack - Monthly Event)</p>
+        <p>🎟 <strong>Who Can Join?</strong> Open to all students & campus members!</p>
+        
+        <h3>🚀 Getting Started</h3>
+        <p>1. Install Dependencies:</p>
+        <pre><code>pip install opencv-python mediapipe numpy</code></pre>
+        <p>2. Set Up Your Webcam with OpenCV:</p>
+        <pre><code>import cv2
+cap = cv2.VideoCapture(0)  # Access your webcam</code></pre>
+        <p>3. Use MediaPipe to Track Your Hand/Head Movements.</p>
+        <p>4. Implement Drawing Logic Using <code>cv2.line()</code>.</p>
+        <p>5. Test It by Writing or Drawing in the Air!</p>
+        
+        <h3>✨ Bonus Features (Optional for Enthusiasts!)</h3>
+        <ul>
+            <li>🔥 <strong>Color Selection:</strong> Change colors based on hand position.</li>
+            <li>🔥 <strong>Multi-User Mode:</strong> Let two people draw at once.</li>
+            <li>🔥 <strong>Tic-Tac-Toe:</strong> Play a simple game using hand gestures.</li>
+        </ul>
+        
+        <h3>🎯 Why Join?</h3>
+        <ul>
+            <li>✅ No prior ML experience required!</li>
+            <li>✅ Fun, hands-on learning with AI/ML & CV.</li>
+            <li>✅ Compete, collaborate, and enjoy <strong>free pizza! 🍕</strong></li>
+        </ul>
+
+        <p><strong>Register now and get ready to draw in the air! 🚀</strong></p>
+    </div>
+
+    <div id="footer-container"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
