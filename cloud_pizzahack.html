@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hack - Cloud Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    
+    <div class="content-section">
+        <h1>Pizza Hack - Cloud Edition</h1>
+        <h2>🎨 Air Drawing, Now on the Cloud!</h2>
+        <h3>An Interactive Cloud & Networking Project for Pizza Hack</h3>
+        
+        <p>Ever imagined drawing in the air <strong>with a friend in real time, from different locations</strong>? In this <strong>Cloud-powered</strong> version of our <strong>Air Drawing</strong> project, you'll take your skills to the next level by hosting a <strong>shared virtual canvas</strong> online! Multiple users can <strong>draw in the air</strong>, and their drawings will appear <strong>on each other’s screens—live!</strong></p>
+        
+        <h3>🔍 How It Works</h3>
+        <ul>
+            <li><strong>Track Movements:</strong> Use a webcam + OpenCV + MediaPipe to capture motion.</li>
+            <li><strong>Cloud-Powered Canvas:</strong> Sync drawings across multiple users using <strong>Firebase Realtime Database</strong> or <strong>WebSockets</strong>.</li>
+            <li><strong>Live Collaboration:</strong> Draw together in real-time from different devices.</li>
+            <li><strong>Erase Feature:</strong> Close your hand into a fist to clear the canvas.</li>
+            <li><strong>Challenge Mode:</strong> Compete by drawing shapes or writing “Huskie Hackers”!</li>
+        </ul>
+        
+        <h3>🔧 Tools You’ll Need</h3>
+        <ul>
+            <li>✅ <strong>Python</strong></li>
+            <li>✅ <strong>OpenCV</strong></li>
+            <li>✅ <strong>MediaPipe</strong></li>
+            <li>✅ <strong>NumPy</strong></li>
+            <li>✅ <strong>Firebase/WebSockets</strong></li>
+            <li>✅ <strong>Flask/FastAPI</strong></li>
+            <li>✅ <strong>A Webcam</strong></li>
+        </ul>
+        
+        <h3>📅 Event Details</h3>
+        <p>📍 <strong>Where:</strong> 71 North Partnership Studio</p>
+        <p>🕑 <strong>When:</strong> Friday, 2-4 PM (Pizza Hack - Monthly Event)</p>
+        <p>🎟 <strong>Who Can Join?</strong> Open to all students & campus members!</p>
+        
+        <h3>🚀 Getting Started</h3>
+        <p>1. Install Dependencies:</p>
+        <pre><code>pip install opencv-python mediapipe numpy flask-socketio firebase-admin</code></pre>
+        <p>2. Set Up Your Webcam with OpenCV:</p>
+        <pre><code>import cv2
+cap = cv2.VideoCapture(0)  # Access your webcam</code></pre>
+        <p>3. Use MediaPipe to Track Hand/Head Movements.</p>
+        <p>4. Sync Drawings Across Users with Firebase/WebSockets.</p>
+        <p>5. Draw Together in Real-Time from Any System!</p>
+        
+        <h3>✨ Bonus Features (Optional for Enthusiasts!)</h3>
+        <ul>
+            <li>🔥 <strong>User Authentication:</strong> Login to save your drawings.</li>
+            <li>🔥 <strong>Room System:</strong> Join specific drawing rooms with friends.</li>
+            <li>🔥 <strong>Multi-Color Support:</strong> Assign different colors to different users.</li>
+            <li>🔥 <strong>Gesture Shortcuts:</strong> Use gestures to change tools (e.g., two fingers for color change).</li>
+        </ul>
+        
+        <h3>🎯 Why Join?</h3>
+        <ul>
+            <li>✅ No prior Cloud experience required!</li>
+            <li>✅ Fun, hands-on learning with Cloud, Networking, & AI/ML.</li>
+            <li>✅ Collaborate, create, and enjoy <strong>free pizza! 🍕</strong></li>
+        </ul>
+
+        <p><strong>Register now and get ready to take Air Drawing to the Cloud! 🚀</strong></p>
+    </div>
+
+    <div id="footer-container"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
